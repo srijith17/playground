@@ -189,7 +189,7 @@ namespace vision
         min_distance = distances[0].first;
         nearest_pixel.x = distances[0].second.x;
         nearest_pixel.y = distances[0].second.y;
-         }
+    }
 
     cv::Mat ConnectedPointCloud(const cv::Mat& point_cloud, int filter_size = 3)
     {
